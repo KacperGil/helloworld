@@ -7,8 +7,12 @@ public class Kalkulator {
         int a=scanner.nextInt();
         System.out.println("Podaj druga cyfre");
         int b=scanner.nextInt();
-        int wynik=a+b;
-        System.out.println("Wynik dodawania: "+wynik);
+
+        if(a>b && a<5){
+            System.out.println("Cyfra " +a+ " jest mniejsza od 5");
+        }else{
+            System.out.println("nw co tam jest");
+        }
 
     }
 }
